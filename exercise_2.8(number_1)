@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+   float mark_1,mark_2,mark_3,total,average;
+
+   printf("Enter the value of mark_1: ");
+   scanf("%f",&mark_1);
+
+   printf("Enter the value of mark_2: ");
+   scanf("%f",&mark_2);
+
+   printf("Enter the value of mark_2: ");
+   scanf("%f",&mark_3);
+
+   total=mark_1+mark_2+mark_3;
+   average=total/3;
+
+   printf("Total mark is:%.2f\n",total);
+   printf("Average mark is:%.2f",average);
+
+   return 0;
+  } 
