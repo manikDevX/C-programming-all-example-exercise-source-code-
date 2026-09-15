@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,difference,product,quotient;
+
+    printf("Enter the value of a: ");
+    scanf("%d",&a);
+
+    printf("Enter the value of b: ");
+    scanf("%d",&b);
+
+    sum=a+b;
+    difference=a-b;
+    product=a*b;
+    quotient=a/b;
+
+    printf("Sum is:%d\n",sum);
+    printf("Difference is:%d\n",difference);
+    printf("Product is:%d\n",product);
+    printf("Quotient is %d",quotient);  //quotient must be integer....
+
+    return 0;
+}
