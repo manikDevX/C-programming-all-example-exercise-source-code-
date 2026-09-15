@@ -1,5 +1,3 @@
-Example-2.7(task-4)
-
 #include<stdio.h>
 int main(void)
 {
