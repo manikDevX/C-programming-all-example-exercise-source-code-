@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    float radius,height,volume;
+    float pi=3.1416;
+
+    printf("Enter the value of radius: ");
+    scanf("%f",&radius);
+
+    printf("Enter the value of height: ");
+    scanf("%f",&height);
+
+    volume=pi*radius*radius*height;
+
+    printf("Volume of Cylinder is %.2f",volume);
+
+    return 0;
+}
