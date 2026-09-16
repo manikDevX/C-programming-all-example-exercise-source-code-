@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    float seconds,minutes,hours,days;
+    int total_seconds,minutes,hours,seconds;
 
-    printf("Enter the value of seconds: ");
-    scanf("%f",&seconds);
+    printf("Enter time in seconds: ");
+    scanf("%d",&total_seconds);
 
-    minutes=seconds/60;
-    hours=minutes/60;
-    days=hours/24;
+    hours=total_seconds/3600;
+    minutes=total_seconds%3600/60;
+    seconds=total_seconds%60;
 
-    printf("Time in minutes is %.3f\n",minutes);
-    printf("Time in hours is %.3f\n",hours);
-    printf("Time in days is %.3f",days);
+    printf("%d hours\n",hours);
+    printf("%d minutes\n",minutes);
+    printf("%d seconds\n",seconds);
 
     return 0;
 }
