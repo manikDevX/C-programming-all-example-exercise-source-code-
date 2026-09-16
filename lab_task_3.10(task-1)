@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,difference,product,remainder,quotient;
+
+    printf("Enter the value of a: ");
+    scanf("%d",&a);
+
+    printf("Enter the value of b: ");
+    scanf("%d",&b);
+
+    if(b==0){
+        printf("Error!\nPlease enter a integer value");
+    }
+
+    sum=a+b;
+    difference=a-b;
+    product=a*b;
+    quotient=a/b;
+    remainder=a%b;
+
+    printf("Sum is %d\n",sum);
+    printf("Difference is %d\n",difference);
+    printf("Product is %d\n",product);
+    printf("Quotient is %d\n",quotient);
+    printf("Remainder is %d\n",remainder);
+
+    return 0;
+}
