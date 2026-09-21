@@ -10,7 +10,7 @@ int main()
   scanf("%d",&student_id);
 
   printf("Enter the value of age ");
-  scanf("%d",age);
+  scanf("%d",&age);
 
   printf("Enter the value of Section ");
   scanf(" %c",&section);
