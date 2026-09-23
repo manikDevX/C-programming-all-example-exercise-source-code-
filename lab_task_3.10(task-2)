@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(void)
+{
+    int a,b;
+    int int_result;
+    float float_result1;
+    float float_result2;
+    float float_result3;
+
+    a=10,b=3;
+    int_result=a/b;
+    float_result1=(float)a/b;
+    float_result2=a/(float)b;
+    float_result3=(float)a/(float)b;
+
+
+    printf("int_result =%d\n",int_result);
+    printf("float_result1 =%f\n",float_result1);
+    printf("float_result2 =%f\n",float_result2);
+    printf("float_result3 =%f",float_result3);
+
+  return 0;
+}
