@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+   float a,b,c;
+   float result;
+
+   printf("Enter the value of a: ");
+   scanf("%f",&a);
+
+   printf("Enter the value of b: ");
+   scanf("%f",&b);
+
+   printf("Enter the value of c: ");
+   scanf("%f",&c);
+
+   result=a*a+b*b-c;
+
+   printf("Result=%.3f",result);
+
+return 0;
+}
