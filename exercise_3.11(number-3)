@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+
+   int x;
+
+   printf("Enter the value of x: ");
+   scanf("%d",&x);
+
+   printf("(x>=10)&&(x<=20)=%d",(x>=10)&&(x<=20));
+
+return 0;
+}
