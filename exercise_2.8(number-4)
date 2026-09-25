@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(void)
+{
+    float price;
+    int quantity;
+    float total_cost;
+
+    printf("Enter the price of the product: ");
+    scanf("%f",&price);
+
+      if (price==0) {
+        printf("Invalid price!");
+     }
+   
+    printf("Enter the quantity of the product: ");
+    scanf("%d",&quantity);
+
+      if (quantity==0) {
+        printf("Invalid quantity!");
+     }
+
+    total_cost=price*quantity;
+  
+    printf("Your total cost is :%.3f ");
+
+reaturn 0;
+}    
+    
