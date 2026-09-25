@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(void)
+{
+  int a,b,largest;
+
+  printf("Enter the value of a: ");
+  scanf("%d",&a);
+
+  printf("Enter the value of b: ");
+  scanf("%d",&b);
+
+  largest=(a>b)?a:b;
+
+  printf("largest value is %d",largest);
+
+ return 0;
+ }
+  
