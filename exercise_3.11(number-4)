@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(void)
+{
+    int a,b,temporary;
+
+    printf("Enter the value of a: ");
+    scanf("%d",&a);
+
+    printf("Enter the value of b: ");
+    scanf("%d",&b);
+
+    printf("Before exchanging: a=%d,",a);
+    printf("b=%d\n",b);
+
+    temporary=a;
+    a=b;
+    b=temporary;
+
+    printf("After exchanging: a=%d,",a);
+    printf("b=%d",b);
+
+    return 0;
+}
