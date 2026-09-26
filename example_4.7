@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    float marks;
+
+    printf("Enter the value of marks: ");
+    scanf("%f",&marks);
+
+    if(marks<0){
+        printf("Invalid marks!");
+    }
+    else if(marks>100){
+        printf("Invalid marks!");
+    }
+    else if(marks>=80){
+        printf("Grade is A!");
+    }
+    else if(marks>=70){
+        printf("Grade is B!");
+    }
+    else if(marks>=60){
+        printf("Grade is C!");
+    }
+    else if(marks>=50){
+        printf("Grade is D!");
+    }
+    else {
+        printf("Grade is F!");
+    }
+
+    return 0;
+}
