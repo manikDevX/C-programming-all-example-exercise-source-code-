@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main()
 {
- int number_1,number_2;
+ float number_1,number_2;
 
  printf("Enter the number_1: ");
- scanf("%d",&number_1);
+ scanf("%f",&number_1);
 
  printf("Enter the number_2: ");
- scanf("%d",&number_2);
+ scanf("%f",&number_2);
 
  if(number_1>number_2){
-    printf("%d is the largest number",number_1);
+    printf("%.2f is the largest number",number_1);
  }
  else if(number_2>number_1){
-    printf("%d is the largest number",number_2);
+    printf("%.2f is the largest number",number_2);
  }
  else{
     printf("Both are equal!");
