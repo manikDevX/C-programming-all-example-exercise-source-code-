@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    float number_1, number_2, number_3;
+    printf("Enter number_1: ");
+    scanf("%f",&number_1);
+
+    printf("Enter number_2: ");
+    scanf("%f",&number_2);
+
+    printf("Enter number_3: ");
+    scanf("%f",&number_3);
+
+    if(number_1>number_2){
+
+            if(number_1>number_3){
+                printf("%.2f is the largest value",number_1);
+        }
+        else{
+            printf("%.2f is the largest value",number_3);
+        }
+    }
+    else{
+        if(number_2>number_3){
+            printf("%.2f is the largest value",number_2);
+        }
+        else{
+            printf("%.2 is the largest value",number_3);
+        }
+    }
+
+    return 0;
+    }
