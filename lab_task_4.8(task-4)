@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+
+int main()
+{
+    char character;
+
+    printf("Enter a character: ");
+    scanf("%c", &character);
+
+    if ((character >= 'a' && character <= 'z') ||
+        (character >= 'A' && character <= 'Z'))
+    {
+        printf("The character is Alphabetic!");
+    }
+    else if (character >= '0' && character <= '9')
+    {
+        printf("The character is Digit!");
+    }
+    else
+    {
+        printf("It's a special character!");
+    }
+
+    return 0;
+}
