@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main ()
+{
+    char operation;
+    float operand_1,operand_2;
+
+    printf("Enter a oprator(+,-,*,/): ");
+    scanf("%c",&operation);
+
+    printf("Enter the value of operand_1: ");
+    scanf("%f",&operand_1);
+
+    printf("Enter the value of operand_2: ");
+    scanf("%f",&operand_2);
+
+    switch(operation){
+
+      case'+':
+        printf("%.2f+%.2f=%.2f",operand_1,operand_2,operand_1+operand_2);
+        break;
+      case'-':
+        printf("%.2f-%.2f=%.2f",operand_1,operand_2,operand_1-operand_2);
+        break;
+      case'*':
+        printf("%.2f*%.2f=%.2f",operand_1,operand_2,operand_1*operand_2);
+        break;
+      case'/':
+          if(operand_2==0){
+            printf("Math error");
+          }
+          else{
+        printf("%.2f/%.2f=%.2f",operand_1,operand_2,operand_1/operand_2);
+        }
+        break;
+      default:
+        printf("Invalid Operator!");
+    }
+
+   return 0;
+}
